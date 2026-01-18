@@ -5,7 +5,14 @@
     <title>Browse stuff online!</title>
   </head>
   <body>
-    <img src="null" alt="mainSearchEngine"></img>
+    <img src="null" alt="mainSearchEngine" id="SearchEngineLogo"></img>
     <input type="text" placeholder="Github"></input>
+    <script>
+      let mainSearchEngine = "Google"
+
+      if (mainSearchEngine == "Google") {
+        document.getElementById("SearchEngineLogo").src = "https://static.vecteezy.com/system/resources/previews/028/667/072/non_2x/google-logo-icon-symbol-free-png.png"
+      }
+    </script>
   </body>
 </html>
